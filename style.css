@@ -833,6 +833,11 @@ body {
     .section-title {
         font-size: 2rem;
     }
+
+	/* 모바일에서는 시공전/시공후 갤러리 숨김 */
+	.contact-gallery {
+		display: none;
+	}
 }
 
 @media (min-width: 1025px) {
